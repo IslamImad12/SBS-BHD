@@ -1,10 +1,12 @@
 import React from 'react'
+import logo from '../images/logoo.png'
 
 export default function Navbar() {
   return <>
   <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
   <div class="container">
-    <a class="navbar-brand" href="#">SBS-PHD</a>
+
+    <a class="navbar-brand" href="#"><img src={logo} width={'35px'} className='mx-1' alt="" /></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
